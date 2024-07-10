@@ -118,3 +118,27 @@ body {
 .primary-btn:hover {
 	border: 3px solid #5dade2;
 }
+/* inspire section style */
+.inspire-container {
+	width: 1140px;
+	height: 775px;
+
+	margin: 78px auto;
+}
+.inspire-description {
+	margin-top: 24px;
+	margin-bottom: 48px;
+	line-height: 1.5;
+}
+.inspire-video {
+	height: 614px;
+	width: 1140px;
+	padding: 32px;
+	border: 1px solid rgba(13, 19, 33, 0.2);
+	border-radius: 16px;
+}
+.inspire-video-frame {
+	width: 1076px;
+	height: 550px;
+	border-radius: 16px;
+}
