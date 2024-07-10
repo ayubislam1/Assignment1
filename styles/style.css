@@ -11,6 +11,25 @@
 	font-weight: 400;
 	color: #0d1321;
 }
+.primary-btn {
+	width: 171px;
+	height: 47px;
+	padding: 12px 20px;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: transparent;
+	border: 3px solid black;
+	color: rgba(13, 19, 33, 0.7);
+	cursor: pointer;
+}
+.layer-title-text {
+	font-size: 24px;
+	font-weight: bold;
+	color: rgba(13, 19, 33, 0.7);
+}
+.text-center {
+	text-align: center;
+}
 
 * {
 	box-sizing: border-box;
@@ -51,4 +70,51 @@ body {
 	background-color: #0d1321;
 	border-radius: 8px;
 	padding: 21px 24px;
+}
+/* main style */
+
+/* skill design */
+.skill-container {
+	height: 1393px;
+	width: 1140px;
+
+	margin: 74px auto;
+	border-radius: 16px;
+	background: rgba(13, 19, 33, 0.02);
+	padding-top: 80px;
+}
+.skill-title {
+	margin-bottom: 24px;
+}
+.skill-description {
+	line-height: 1.7;
+}
+/* layer styles*/
+
+.motivation-layer1,
+.motivation-layer2,
+.motivation-layer3 {
+	height: 336px;
+	width: 946px;
+	display: flex;
+	gap: 90px;
+	align-items: center;
+	padding: 48px;
+	margin: 48px 97px 32px;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 16px;
+}
+.layer1-details,
+.layer2-details,
+.layer3-details {
+	line-height: 1.5;
+}
+.layer1-description,
+.layer2-description,
+.layer3-description {
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+.primary-btn:hover {
+	border: 3px solid #5dade2;
 }
