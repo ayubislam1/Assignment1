@@ -221,3 +221,56 @@ body {
 	margin-bottom: 24px;
 	box-shadow: 0 4px 4px 0;
 }
+
+/* support section style */
+
+.support {
+	width: 1140px;
+	height: 430px;
+	background-image: linear-gradient(
+			to left,
+			rgba(13, 19, 33, 0.15),
+			rgba(13, 19, 33, 0.9)
+		),
+		url("../images/handshake.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 16px;
+	margin: 20px auto;
+}
+.support-container {
+	height: 350px;
+	width: 1140px;
+	text-align: center;
+	padding: 100px 48px;
+	align-items: center;
+}
+.support-title {
+	color: #ffff;
+}
+.support-description {
+	color: rgba(255, 255, 255, 0.8);
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+.support-area {
+	width: 548px;
+	height: 55px;
+	border-radius: 8px;
+	padding: 20px;
+}
+.support-submit-btn {
+	width: 120px;
+	height: 57px;
+	padding: 15px 20px;
+	background-color: #78d1f6;
+	border-radius: 8px;
+	color: #ffff;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+}
+.support-submit-btn:hover {
+	border: 3px solid white;
+}
