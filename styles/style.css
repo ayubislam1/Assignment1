@@ -30,6 +30,15 @@
 .text-center {
 	text-align: center;
 }
+.target1-color1 {
+	background-color: rgba(255, 76, 30, 0.05);
+}
+.target1-color2 {
+	background-color: rgba(0, 76, 232, 0.05);
+}
+.target1-color3 {
+	background-color: rgba(255, 223, 0, 0.05);
+}
 
 * {
 	box-sizing: border-box;
@@ -141,4 +150,68 @@ body {
 	width: 1076px;
 	height: 550px;
 	border-radius: 16px;
+}
+
+/* target section style
+ */
+
+/* target1 style */
+.target {
+	width: 1140px;
+	height: 1437px;
+	margin: 150px auto;
+}
+
+.target1-header {
+	height: 460px;
+	width: 1140px;
+}
+.target1-header-description,
+.target2-header-description {
+	line-height: 1.5;
+	margin-top: 24px;
+	margin-bottom: 48px;
+}
+.target1-container {
+	display: flex;
+	gap: 24px;
+}
+.target1 {
+	width: 364px;
+	height: 300px;
+	padding: 40px;
+	border-radius: 16px;
+}
+.target1-title,
+.target2-title {
+	font-size: 24px;
+	font-weight: bolder;
+	margin-top: 24px;
+}
+.target1-description,
+.target2-description {
+	margin-top: 8px;
+	margin-bottom: 24px;
+	line-height: 1.5;
+}
+.target1-link {
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+/* target2 style */
+.target2-header {
+	width: 1140px;
+	height: 886px;
+	margin-top: 40px;
+}
+.target2 {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 24px;
+	padding: 40px;
+	border: 1px solid rgba(13, 19, 33, 0.2);
+	align-items: center;
+	border-radius: 16px;
+	margin-bottom: 24px;
 }
