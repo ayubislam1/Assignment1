@@ -181,6 +181,7 @@ body {
 	height: 300px;
 	padding: 40px;
 	border-radius: 16px;
+	box-shadow: 0 2px 4px 0;
 }
 .target1-title,
 .target2-title {
@@ -199,6 +200,10 @@ body {
 	font-size: 16px;
 	font-weight: bold;
 }
+.target1-link:hover {
+	color: blue;
+	cursor: pointer;
+}
 /* target2 style */
 .target2-header {
 	width: 1140px;
@@ -214,4 +219,5 @@ body {
 	align-items: center;
 	border-radius: 16px;
 	margin-bottom: 24px;
+	box-shadow: 0 4px 4px 0;
 }
