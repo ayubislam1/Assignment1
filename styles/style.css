@@ -79,6 +79,7 @@ body {
 	background-color: #0d1321;
 	border-radius: 8px;
 	padding: 21px 24px;
+	cursor: pointer;
 }
 .banner-btn:hover {
 	border: 3px solid red;
